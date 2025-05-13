@@ -7,7 +7,7 @@ import time
 from streamlit_extras.metric_cards import style_metric_cards
 import plotly.graph_objs as go
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
+# st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(page_title="Crash Dashboard", page_icon="🚧", layout="wide")
 st.header("ROAD CRASH ANALYTICS DASHBOARD")
 st.markdown("Data: Rwanda Road Traffic Crashes 2013", unsafe_allow_html=True)
